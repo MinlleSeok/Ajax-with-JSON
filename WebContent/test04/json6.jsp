@@ -32,7 +32,7 @@
 						memberInfo += "이름 : " + jsonInfo.members[i].name + "<br>";
 						memberInfo += "나이 : " + jsonInfo.members[i].age + "<br>";
 						memberInfo += "성별 : " + jsonInfo.members[i].gender + "<br>";
-						memberInfo += "별명 : " + jsonInfo.members[i].nickname + "<br><br><br>";
+						memberInfo += "별명 : " + jsonInfo.members[i].nickname + "<br><br>";
 					}
 					
 					$("#output").html(memberInfo);
